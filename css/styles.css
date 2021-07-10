@@ -1,0 +1,13 @@
+/**********    Header    ****************/
+#header-nav
+{
+	border: 0px;
+	border-radius: 0;
+}
+
+#nav-brand
+{
+	color: black;
+	vertical-align: middle;
+	font-weight: bold;
+}
