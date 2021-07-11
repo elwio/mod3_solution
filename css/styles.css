@@ -1,8 +1,9 @@
 /**********    Header    ****************/
 #header-nav
 {
-	border: 0px;
 	border-radius: 0;
+	background-color: grey;
+	border: 0px;		
 }
 
 #nav-brand
@@ -10,4 +11,52 @@
 	color: black;
 	vertical-align: middle;
 	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.list-item
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	vertical-align: middle;
+	line-height: 1.8em;
+}
+
+#collapsable-nav
+{
+	border: 0px;
+}
+
+#nav-list
+{
+	background-color: lightgrey;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	border-top: 2px solid black;
+}
+
+#header-conteiner
+{
+	border: 2px solid black;
+}
+
+.list-item2, .list-item3
+{
+	border-top: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+	border:  1px solid lightgrey;	
+}
+
+.navbar-header .navbar-toggle.collapsed, .navbar-toggle.collapsed .icon-bar
+{
+	border:  1px solid black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+	background-color: grey;	
 }
